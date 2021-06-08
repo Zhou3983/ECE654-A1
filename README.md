@@ -8,5 +8,16 @@ Perform two simple analyses on ASTs:
 ## Usage
 
 ```
-python src/main.py --program=path_to_the_program*
+python src/main.py --program=path_to_the_program
+```
+
+## Demo
+Run simple analyses on demo.py:
+```
+python3 src/main.py --program='src/demo.py'
+```
+Expected output:
+```
+0 identifiers with length equal 13
+0 nodes have control structure nesting greater than 4
 ```
