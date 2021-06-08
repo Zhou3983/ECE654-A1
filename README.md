@@ -8,5 +8,5 @@ Perform two simple analyses on ASTs:
 ## Usage
 
 ```
-python src/main.py --program *path_to_the_program*
+python src/main.py --program=path_to_the_program*
 ```
