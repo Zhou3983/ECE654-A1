@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.7"
+install:
+  - pip install astmonkey
+  - pip install pytest
+  - pip install graphviz
+
+script:
+  - pytest 
