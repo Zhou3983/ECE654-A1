@@ -1,7 +1,7 @@
 import argparse
 import ast_util
 parser = argparse.ArgumentParser('Analysis on AST')
-parser.add_argument('--program', type=str, default='sample.py')
+parser.add_argument('--program', type=str, default='src/demo.py')
 
 if __name__ == '__main__':
     args = parser.parse_args()
