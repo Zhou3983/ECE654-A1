@@ -10,6 +10,6 @@ if __name__ == '__main__':
         
     ast_util.check_identifiers_with_length_equal_13(program)
     ast_util.check_max_control_structure_nesting_of_4(program)
-    ast_util.visualize_ast(program)
+    # ast_util.visualize_ast(program)
     
     

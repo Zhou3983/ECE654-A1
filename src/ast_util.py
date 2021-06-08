@@ -14,7 +14,7 @@ def check_identifiers_with_length_equal_13(program):
         for child in ast.iter_child_nodes(current_node):
             bfs.append(child)
 
-    print(f'''{identifiers_with_length_equal_13} identifiers' length equal 13''')
+    print(f'{identifiers_with_length_equal_13} identifiers with length equal 13')
     return identifiers_with_length_equal_13
 
 def check_max_control_structure_nesting_of_4(program):
