@@ -1,4 +1,5 @@
-for i in range(5):
+i = 0
+if i == 0:
     this_equal_13 = 5
     if i > this_equal_13:
         if True:
